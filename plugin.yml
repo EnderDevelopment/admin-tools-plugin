@@ -1,0 +1,22 @@
+name: AdminCommandsPlugin
+version: 1.0
+main: com.user.AdminCommandsPlugin
+author: user
+description: A plugin with essential admin commands for Minecraft servers
+api-version: 1.19
+commands:
+  fly:
+    description: Toggle fly mode for a player
+    usage: /fly [player]
+  heal:
+    description: Heal a player
+    usage: /heal [player]
+  feed:
+    description: Feed a player
+    usage: /feed [player]
+  gamemode:
+    description: Change player's game mode
+    usage: /gamemode <mode> [player]
+  teleport:
+    description: Teleport to a player or coordinates
+    usage: /teleport <player> [target] or /teleport <x> <y> <z>
